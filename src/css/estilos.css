@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -45,11 +47,11 @@ body {
     display: flex;
     align-items: center;
     height: calc(100vh - 132px);
-    padding: 0 30px 30px;
+    padding: 0 30px ;
 }
 
 .container .imagem-titulo {
-    max-width: 500px;
+    max-width: 450px;
 }
 
 h1 {
@@ -58,9 +60,9 @@ h1 {
 
 .container .descricao {
     color: #a8adb7;
-    width: 105%;
-    font-size: 22px;
-    margin: 30px 0;
+    width: 100%;
+    font-size: 1.5em;
+    margin: 40px 0;
 }
 
 .container .botao-trailer {
@@ -81,6 +83,7 @@ h1 {
 
 .container .aloy {
     max-width: 800px;
+    margin: 0px 0px 50px;
 }
 
 .fundo-video {
